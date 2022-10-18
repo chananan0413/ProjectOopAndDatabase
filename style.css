@@ -9,11 +9,14 @@
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    background-color: #29292a;
+}
 :root{
-    --main-color: #6d4c41;
+    --main-color: #dea83d;
     --second-color: #424242 ;
-    --text-color: #616161 ;
-    --gradient: linear-gradient( #455a64 , #455a64 );
+    --text-color: #ffffff ;
+    --gradient: linear-gradient( #dea83d , #dea83d  );
 }
 /* Custom Scroll Bar */
 html::-webkit-scrollbar{
@@ -29,8 +32,9 @@ html::-webkit-scrollbar-thumb{
 section{
     padding: 50px 100px;
 }
+
 header{
-    position: fixed;
+    position: relative;
     width: 100%;
     top: 0;
     right: 0;
@@ -38,11 +42,30 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #bdbdbd;
+    background: #dea83d ;
     padding: 15px 100px;
+}
+header1{
+    position: relative;
+    width: 100%;
+    bottom: 1px ;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    border-style: solid;
+    align-items: center;
+    justify-content: space-between;
+    background: #29292a;
+    padding: 20px 100px;
 }
 .logo img{
     width: 40px;
+}
+.top h{
+    position: relative;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    color: var(--text-color);
 }
 .navbar{
     display: flex;
@@ -81,7 +104,7 @@ header{
     font-weight: 500;
 }
 .header-btn .sign-in{
-    background: #263238;
+    background: #dea83d ;
     color: #FFF;
     border-radius: 0.5rem;
 }
@@ -90,24 +113,32 @@ header{
 }
 /* Home */
 .home{
-    width: 50%;
-    min-height: 100vh;
+    width: 90%;
+    min-height: 60vh;
     position: relative;
-    background: url(img/1.png);
+    background: url(img/3.png);
     background-repeat: no-repeat;
-    background-position: center right;
+    position : center right;
+    top: 20px;
+    left: 100px;
     background-size: cover;
     display: grid;
     align-items: center;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
 }
 .text h1{
-    font-size: 3.5rem;
+    position: relative;
+    right: 5px;
+    font-size: 3.0rem;
     letter-spacing: 2px;
 }
 .text span{
     color: var(--main-color);
 }
+.text br{
+    color: var(--main-colo);
+}
 .text p{
+    right: 100px;
     margin: 00.5rem 0 1rem;
 }
