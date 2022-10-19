@@ -16,7 +16,7 @@ body{
     --main-color: #dea83d;
     --second-color: #424242 ;
     --text-color: #ffffff ;
-    --gradient: linear-gradient( #dea83d , #dea83d  );
+    --gradient: linear-gradient( #d2c3a5 ,#dea83d   );
 }
 /* Custom Scroll Bar */
 html::-webkit-scrollbar{
@@ -135,9 +135,7 @@ header1{
 .text span{
     color: var(--main-color);
 }
-.text br{
-    color: var(--main-colo);
-}
+
 .text p{
     right: 100px;
     margin: 00.5rem 0 1rem;
