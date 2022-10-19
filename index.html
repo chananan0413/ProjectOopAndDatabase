@@ -50,6 +50,29 @@
             </form>
         </div>
     </section>
+    <!--camera-->
+    <section class="camera" id="camera">
+    <div class="text">
+        <h2><span>CAMERA</span> selection </h2>
+    <div class="container">
+        <div class="sidebar">
+            <input onkeyup="searchsomething(this)" id="txt_search" type="text" class="sidebar-search" placeholder="Search something...">
+        
+            <a onclick="searchproduct('all')" class="sidebar-items">
+                All product
+            </a>
+            <a onclick="searchproduct('shoe')" class="sidebar-items">
+                Shoe
+            </a>
+            <a onclick="searchproduct('shirt')" class="sidebar-items">
+                Shirt
+            </a>
+        </div>
+        <div id="productlist" class="product">
+    
+        </div>
+        </div>
+    </section>
 
     <!--Link to Java-->
     <script src="main.java"></script>

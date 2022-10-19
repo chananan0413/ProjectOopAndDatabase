@@ -30,7 +30,7 @@ html::-webkit-scrollbar-thumb{
     border-radius: 5rem;
 }
 section{
-    padding: 50px 100px;
+    padding: 100px 100px;
 }
 
 header{
@@ -116,7 +116,7 @@ header1{
     width: 90%;
     min-height: 60vh;
     position: relative;
-    background: url(img/3.png);
+    background: url(img/3.png); /*รูปกล้องพื้นหลัง*/
     background-repeat: no-repeat;
     position : center right;
     top: 20px;
@@ -127,8 +127,9 @@ header1{
     grid-template-columns: repeat(1, 1fr);
 }
 .text h1{
+    color: #d2c3a5;
     position: relative;
-    right: 5px;
+    right: 20px;
     font-size: 3.0rem;
     letter-spacing: 2px;
 }
@@ -137,8 +138,9 @@ header1{
 }
 
 .text p{
-    right: 100px;
-    margin: 00.5rem 0 1rem;
+    color: #d2c3a5;
+    right: 20px;
+    margin: 0.5rem 0 1rem;
 }
 .from-container form{
     display: flex;
@@ -146,7 +148,7 @@ header1{
     align-items: center;
     gap: 1rem;
     position: absolute;
-    bottom: 0rem;
+    bottom: -50;
     left: 100px;
     background: #FFF;
     padding: 20px;
@@ -182,3 +184,69 @@ header1{
 .from-container form .btn:hover{
     background: var(--main-color);
 }
+
+/*camera*/
+.camera{
+    width: 90%;
+    min-height: 60vh;
+    position: relative;
+    background: #29292a; 
+    background-repeat: no-repeat;
+    position : center right;
+    top: 20px;
+    left: 100px;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
+}
+.text h2{
+    color: #d2c3a5;
+    position: relative;
+    right: 5px;
+    font-size: 3.0rem;
+    letter-spacing: 2px;
+}
+.text span{
+    color: var(--main-color);
+}
+.sidebar-search {
+    padding: 10px;
+    border: 2px solid transparent;
+    width: 100%;
+    font-size: 1.2vw;
+    outline: none;
+    border-radius: 5px;
+    background: #f2f2f2;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+.sidebar-search {
+    padding: 10px;
+    border: 2px solid transparent;
+    width: 100%;
+    font-size: 1.2vw;
+    outline: none;
+    border-radius: 5px;
+    background: #f2f2f2;
+    transition: 0.3s;
+    margin-bottom: 20px;
+  }
+  .sidebar-search:focus {
+    border: 2px solid #e61b36;
+  }
+  .sidebar-items {
+    background: #f2f2f2;
+    margin-bottom: 10px;
+    padding: 50px;
+    border-radius: 5px;
+    border: 1px solid #e5e5e5;
+    color: #000;
+    transition: 300ms;
+    font-size: 2vw;
+    bottom: 50px;
+  }
+  .sidebar-items:hover {
+    background: #9c1032;
+    color: #fff;
+  }
