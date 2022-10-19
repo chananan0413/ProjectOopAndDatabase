@@ -61,7 +61,7 @@ header1{
 .logo img{
     width: 40px;
 }
-.top h{
+.text b{
     position: relative;
     font-size: 1.5rem;
     letter-spacing: 2px;
@@ -139,4 +139,43 @@ header1{
 .text p{
     right: 100px;
     margin: 00.5rem 0 1rem;
+}
+.from-container form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    bottom: 4rem;
+    left: 100px;
+    background: #FFF;
+    padding: 20px;
+    border-radius: 0.5rem;
+}
+.input-box{
+    top: 1000;
+    flex: 1 1 7rem;
+    display: flex;
+    flex-direction: column;
+}
+.input-box span{
+    font-weight: 500;
+}
+.input-box input{
+    padding: 7px;
+    outline: none;
+    border: none;
+    background: #eeeff1;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+.from-container form .btn{
+    flex: 1 1 7rem;
+    padding: 10px 34px;
+    border: none;
+    border-radius: 0.5rem;
+    background: #d2c3a5;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 500;
 }
