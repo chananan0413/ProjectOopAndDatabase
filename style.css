@@ -55,7 +55,7 @@ header1{
     border-style: solid;
     align-items: center;
     justify-content: space-between;
-    background: #29292a;
+    background: #424242;
     padding: 20px 100px;
 }
 .logo img{
@@ -146,7 +146,7 @@ header1{
     align-items: center;
     gap: 1rem;
     position: absolute;
-    bottom: 4rem;
+    bottom: 0rem;
     left: 100px;
     background: #FFF;
     padding: 20px;
@@ -175,7 +175,10 @@ header1{
     border: none;
     border-radius: 0.5rem;
     background: #d2c3a5;
-    color: #FFF;
+    color: #424242;
     font-size: 1rem;
     font-weight: 500;
+}
+.from-container form .btn:hover{
+    background: var(--main-color);
 }
